@@ -24,3 +24,17 @@ class Car:
         my_car.year = 2020
 
         my_car.intro()
+
+
+class Hotel:
+    def __init__(self, name, location):
+        self.name = name
+        self.location = location
+
+    def intro(self):
+        print(f"This hotel is {self.name} located in {self.location}.")
+
+        my_hotel = Hotel("Grand Hotel", "Paris")
+        my_hotel.stars = 5
+
+        my_hotel.intro()
